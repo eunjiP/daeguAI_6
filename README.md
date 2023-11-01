@@ -1,1 +1,1 @@
-# daeguAI_6
+# 대구AI Hub 6기
