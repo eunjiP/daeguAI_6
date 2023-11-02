@@ -9,17 +9,25 @@
         * css를 웹페이지에 삽입하는 두번째 실행방법 : style태그에 css코드를 넣는다.(태그방식)
         * 선택자와 선언으로 문법이 이루어진다.
         */
-        h1{
+        h1 {
             color: blue;
         }
-        /*class*/
+        /*
+        * class 선택자는 태그를 그룹핑한다. 속성은 class를 쓰고, 기호는 .을 이용한다.
+        */
         .u {
             text-decoration: underline;
+        }
+        /*
+        * ID 선택자는 하나의 태그를 식별한다. 속성은 id, 기호는 #을 사용한다.
+        */
+        #first {
+            font-size: 100px;
         }
     </style>
 </head>
 <body>
-    <h1 class="u">HTML</h1>
+    <h1 id="first" class="u">HTML</h1>
     <!--css를 웹페이지에 삽입하는 첫번째 실행방법 : style시트에 css 문법을 적는다.(inline방식)-->
     <h2 class="u">a</h2>
     <h1 style="color:red">CSS</h1>
