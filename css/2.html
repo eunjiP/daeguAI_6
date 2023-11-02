@@ -1,0 +1,33 @@
+<!--
+    박스 모델
+* block level element
+* inline
+display는 엘리먼트의 형태를 규정하는 가장 큰 틀의 규칙이다. inline은 소박하고 block은 탐욕스럽다.
+-->
+<html>
+    <head>
+        <style>
+            h1, 
+            strong, 
+            a{
+                /*두께 모양 색상*/
+                border: 5px solid red;
+            }
+            h1 {
+                display: inline;
+            }
+            strong,
+            a {
+                display:block;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A</h1>
+        <h1>B</h1>
+        <h1>C</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        <strong>Aspernatur</strong> maxime similique enim eveniet cum molestiae id porro quia corrupti? 
+        Ad ex magni inventore <a href="http://info.cern.ch">laboriosam</a> perspiciatis tempora unde voluptates mollitia asperiores.
+    </body>
+</html>
